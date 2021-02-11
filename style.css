@@ -1,0 +1,41 @@
+.mainsection{
+	width:100%;
+	min-height:500px;
+}
+
+.footer{
+	min-height:200px;
+	background:#FFF;
+	text-align:center;
+	background:#4D5257;
+	color:#fff;
+	
+}
+.profile{height: 125px;
+    width: 150px;
+    margin-left: 125px;
+    margin-top: -66px;
+    
+}
+.profile img{height:100%;
+	width:100%;
+    border: 2px solid #f1f1f1;
+border-radius: 10px;
+}
+.information{
+	margin-left:40px;
+	color:#17A2B8;
+		border-bottom:2px dashed #f1f1f1;
+}
+.information h3{
+
+}
+.otherinfo{
+	border-top:2px dashed #f1f1f1;
+	margin-left:40px;
+	color:#666;
+}
+
+
+
+
