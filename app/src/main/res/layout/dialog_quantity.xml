@@ -57,7 +57,8 @@
             android:padding="5dp"
             android:textColor="@color/colorGreen"
             android:textSize="10sp"
-            android:background="@drawable/shape_rect05"/>
+            android:background="@drawable/shape_rect05"
+            android:layout_alignParentRight="true" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -73,7 +74,8 @@
             android:padding="10dp"
             android:text="৳10"
             android:textAlignment="textStart"
-            android:textColor="@color/colorBlack"/>
+            android:textColor="@color/colorBlack"
+            android:gravity="start" />
 
         <TextView
             android:id="@+id/priceDiscountedTv"
@@ -83,7 +85,9 @@
             android:layout_toEndOf="@+id/originalPriceTv"
             android:text="৳15"
             android:textAlignment="textStart"
-            android:textColor="@color/colorBlack"/>
+            android:textColor="@color/colorBlack"
+            android:layout_toRightOf="@+id/originalPriceTv"
+            android:gravity="start" />
 
         <TextView
             android:id="@+id/finalPriceTv"
@@ -93,7 +97,9 @@
             android:layout_alignParentEnd="true"
             android:text="Final Price"
             android:textAlignment="textStart"
-            android:textColor="@color/colorBlack"/>
+            android:textColor="@color/colorBlack"
+            android:layout_alignParentRight="true"
+            android:gravity="start" />
 
 
 

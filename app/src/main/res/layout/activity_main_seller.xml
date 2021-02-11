@@ -127,8 +127,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:background="@drawable/shape_rect02"
-            android:drawableStart="@drawable/ic_search_gray"
-            android:layout_toStartOf="@id/filterProductBtn"
+            android:drawableLeft="@drawable/ic_search_gray"
+            android:layout_toLeftOf="@id/filterProductBtn"
             android:drawablePadding="10dp"
             android:padding="10dp"
             android:hint="Search" />
@@ -139,8 +139,9 @@
             android:layout_width="45dp"
             android:layout_height="45dp"
             android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
             android:layout_marginTop="5dp"
-            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
             android:background="@null"
             android:scaleType="fitXY"
             android:src="@drawable/ic_filter_gray"/>
@@ -152,7 +153,7 @@
             android:layout_below="@+id/searchProductEt"
             android:textColor="@color/colorBlack"
             android:text="Showing All"
-            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
             android:layout_marginBottom="5dp"/>
 
         <!--Recycler  View show products-->

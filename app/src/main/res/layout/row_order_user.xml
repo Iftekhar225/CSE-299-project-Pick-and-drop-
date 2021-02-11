@@ -24,7 +24,7 @@
             android:id="@+id/dateTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toStartOf="@+id/nextIv"
+            android:layout_toLeftOf="@+id/nextIv"
             android:text="9.12.2020"/>
 
         <TextView
@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/shopNameTv"
             android:layout_marginTop="5dp"
-            android:layout_toStartOf="@id/nextIv"
+            android:layout_toleftOf="@id/nextIv"
             android:text="In Progress"
             android:textColor="@color/colorGreen"/>
 
@@ -56,7 +56,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_next_gray"
-            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
             android:layout_centerVertical="true"/>
 
     </RelativeLayout>

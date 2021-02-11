@@ -19,7 +19,8 @@
             android:src="@drawable/ic_store_gray"
             app:c_border="true"
             app:c_border_width="1dp"
-            app:c_border_color="@color/colorGray02"/>
+            app:c_border_color="@color/colorGray02"
+            android:layout_marginRight="5dp" />
 
         <!--Online/Offline status-->
         <ImageView
@@ -37,14 +38,17 @@
             android:text="Closed"
             android:background="@drawable/shape_rect06"
             android:textColor="@color/colorRed"
-            android:textSize="10sp"/>
+            android:textSize="10sp"
+            android:layout_toLeftOf="@id/nextIv" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_toEndOf="@id/shopIv"
-            android:layout_toStartOf="@id/nextIv">
+            android:layout_toStartOf="@id/nextIv"
+            android:layout_toRightOf="@id/shopIv"
+            android:layout_toLeftOf="@id/nextIv">
 
             <TextView
                 android:id="@+id/shopNameTv"
